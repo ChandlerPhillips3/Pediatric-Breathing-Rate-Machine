@@ -1,6 +1,6 @@
 # Pediatric-Breathing-Rate-Machine
 
-##Overview
+## Overview
 Worked in a team of 6 members to create a Breathing Rate Machine for our client, an occupational therapist, in order calm the breathing rate of her younger patients.
 
 

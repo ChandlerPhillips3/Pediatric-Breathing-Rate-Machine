@@ -41,6 +41,6 @@ Programming LED Lights: https://www.youtube.com/watch?v=zj3sa5HV2Bg
 Adafruit NeoPixel Library: Adafruit NeoPixel (https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQYocfMOvWViEjxOf6gqUYtp&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOa45H3wr3WZ1i3AQNaOB-y8WlB3rZ--mDY2H1_riNlSIovGlfUStkaAkCMEALw_wcB)
 
 ## Future Improvments?
--[ ] Dial For breathing rate adjustment
--[ ] Dial For Color Selection by User
--[ ] Develop Physical Copy (Originally Designed Online during Covid-19 Pandemic, Spring 2020)
+- [ ] Dial For breathing rate adjustment
+- [ ] Dial For Color Selection by User
+- [ ] Develop Physical Copy (Originally Designed Online during Covid-19 Pandemic, Spring 2020)

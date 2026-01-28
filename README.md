@@ -10,7 +10,7 @@ Our Breathing Rate machine we develop was going to be made out of acrylic, laser
 **Arduino Coding** For the LED Lights and Vibrations of the Breathing Rate Machine
 
 **Please Note:**
-The projects timeline took place January 2020 - May 2020, which was when the COVID-19 Pandemic outbreak took place. We were forced to shift online and completed an online version of the project, but were never able to produce a physical product. Through the help of online resources (TinkerCAD, CAD, Zoom, etc.), it made an electronic version of the fisable.
+The projects timeline took place January 2020 - May 2020, which was when the COVID-19 Pandemic outbreak took place. We were forced to shift online and completed an online version of the project, but were never able to produce a physical product. Through the help of online resources (TinkerCAD, CAD, Zoom, Wokwi, etc.), it made an electronic version of the fisable.
 
 ### Guide
 Here is a a guide of the following files with explanations of what you will find in each one:
@@ -26,17 +26,21 @@ A picture of the Arduino set up:
 - Final Arduino.PNG
 
 Arduino Code:
-- **Librarys📚:** Adafruit NeoPixel (https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQYocfMOvWViEjxOf6gqUYtp&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOa45H3wr3WZ1i3AQNaOB-y8WlB3rZ--mDY2H1_riNlSIovGlfUStkaAkCMEALw_wcB)
+-BRM-LED-VIB.ino
+- **Librarys📚:** Adafruit NeoPixel
+
 
 
 
 ## Useful Resources
 
+Live Demo: https://wokwi.com/projects/453890159644208129
+
 Programming LED Lights: https://www.youtube.com/watch?v=zj3sa5HV2Bg
 
-See it Live: https://wokwi.com/projects/453890159644208129
+Adafruit NeoPixel Library: Adafruit NeoPixel (https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQYocfMOvWViEjxOf6gqUYtp&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOa45H3wr3WZ1i3AQNaOB-y8WlB3rZ--mDY2H1_riNlSIovGlfUStkaAkCMEALw_wcB)
 
 ## Future Improvments?
 -[] Dial For breathing rate adjustment
 -[] Dial For Color Selection by User
--[] Develop Physical Copy (Originally Designed Online during Covid Pandemic, Spring 2020)
+-[] Develop Physical Copy (Originally Designed Online during Covid-19 Pandemic, Spring 2020)

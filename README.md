@@ -26,7 +26,7 @@ A picture of the Arduino set up:
 - Final Arduino.PNG
 
 Arduino Code:
--BRM-LED-VIB.ino
+- BRM-LED-VIB.ino
 - **Librarys📚:** Adafruit NeoPixel
 
 

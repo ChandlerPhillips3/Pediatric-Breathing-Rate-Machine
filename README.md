@@ -26,7 +26,7 @@ A picture of the Arduino set up:
 - Final Arduino.PNG
 
 Arduino Code:
-- **Librarys:**
+- **Librarys📚:** Adafruit NeoPixel (https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQYocfMOvWViEjxOf6gqUYtp&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOa45H3wr3WZ1i3AQNaOB-y8WlB3rZ--mDY2H1_riNlSIovGlfUStkaAkCMEALw_wcB)
 
 
 

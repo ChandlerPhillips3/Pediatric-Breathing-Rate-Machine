@@ -26,7 +26,7 @@ A picture of the Arduino set up:
 - Final Arduino.PNG
 
 Arduino Code:
-- **Librarys: ** 
+- **Librarys:**
 
 
 
@@ -37,6 +37,6 @@ Programming LED Lights: https://www.youtube.com/watch?v=zj3sa5HV2Bg
 See it Live: https://wokwi.com/projects/453890159644208129
 
 ## Future Improvments?
-- Dial For breathing rate adjustment
-- Dial For Color Selection by User
-- Physical Copy (Designed Online during Covid Pandemic, Srping 2020)
+-[] Dial For breathing rate adjustment
+-[] Dial For Color Selection by User
+-[] Develop Physical Copy (Originally Designed Online during Covid Pandemic, Spring 2020)

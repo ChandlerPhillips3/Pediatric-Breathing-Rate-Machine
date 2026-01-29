@@ -1,10 +1,10 @@
 # Pediatric-Breathing-Rate-Machine
 
 ## Overview
-Worked in a team of 6 members to create a Breathing Rate Machine for our client, an occupational therapist, in order calm the breathing rate of her younger patients.
+A team of 6 members worked together in order to create a Breathing Rate Machine for our client, an occupational therapist, in order calm the breathing rate of her young patients.
 
 
-Our Breathing Rate machine we develop was going to be made out of acrylic, laser cut into a shape of a hand on top of a box, powerded by a 9V battrery and arduino. In order to calm the breathing rate of the user, we used LED lights to trace the outline of the hand for the patient, as well as a vibration motor, which would be both signal when the patient should breath in/ out to get their breathing rate in control. The occupational therapist would have freedom to choose different combinations of the two options with different knobs installed on the box.
+The Breathing Rate machine we developed was going to be made out of acrylic, laser cut into a shape of a hand on top of a box, powerded by a 9V battrery and arduino. In order to calm the breathing rate of the user, we used LED lights to trace the outline of the hand for the patient, as well as a vibration motor, which would be both signal when the patient should breath in/ out to get their breathing rate in control. The occupational therapist would have freedom to choose different combinations of the two options with different knobs installed on the box.
 
 ## Chandler Phillips Main Role
 **Arduino Coding** For the LED Lights and Vibrations of the Breathing Rate Machine
@@ -41,6 +41,7 @@ Programming LED Lights: https://www.youtube.com/watch?v=zj3sa5HV2Bg
 Adafruit NeoPixel Library: Adafruit NeoPixel (https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQYocfMOvWViEjxOf6gqUYtp&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOa45H3wr3WZ1i3AQNaOB-y8WlB3rZ--mDY2H1_riNlSIovGlfUStkaAkCMEALw_wcB)
 
 ## Future Improvments?
-- [ ] Add dial For breathing rate adjustment
-- [ ] Add dial For color selection perfered by user
+- [ ] Switch in order to indlcude/exclude vibrations
+- [ ] Add dial for breathing rate adjustment
+- [ ] Add dial for color selection perfered by user
 - [ ] Develop Physical Copy (Originally Designed Online during Covid-19 Pandemic, Spring 2020)

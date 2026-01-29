@@ -1,47 +1,86 @@
-# Pediatric-Breathing-Rate-Machine
+# Pediatric Breathing Rate Machine
 
 ## Overview
-A team of 6 members worked together in order to create a Breathing Rate Machine for our client, an occupational therapist, in order calm the breathing rate of her young patients.
 
+This project was developed by a team of six students for an occupational therapist who works with pediatric patients experiencing anxiety and irregular breathing patterns.
 
-The Breathing Rate machine we developed was going to be made out of acrylic, laser cut into a shape of a hand on top of a box, powerded by a 9V battrery and arduino. In order to calm the breathing rate of the user, we used LED lights to trace the outline of the hand for the patient, as well as a vibration motor, which would be both signal when the patient should breath in/ out to get their breathing rate in control. The occupational therapist would have freedom to choose different combinations of the two options with different knobs installed on the box.
+The goal was to design a device that guides children through controlled breathing using **visual LED cues** and **haptic (vibration) feedback** traced along the outline of a hand.
 
-## Chandler Phillips Main Role
-**Arduino Coding** For the LED Lights and Vibrations of the Breathing Rate Machine
+The final design consisted of:
+- A laser-cut acrylic hand mounted on a box enclosure
+- Addressable NeoPixel LEDs tracing the hand outline
+- A vibration motor for haptic feedback
+- An Arduino-powered control system
+- User-adjustable knobs to control breathing rate, LED colors, and vibration settings
 
-**Please Note:**
-The projects timeline took place January 2020 - May 2020, which was when the COVID-19 Pandemic outbreak took place. We were forced to shift online and completed an online version of the project, but were never able to produce a physical product. Through the help of online resources (TinkerCAD, CAD, Zoom, Wokwi, etc.), it made an electronic version of the fisable.
+Due to the COVID-19 pandemic (Jan 2020 – May 2020), the project transitioned fully online and a physical prototype was never manufactured. However, a complete digital simulation of the electronics and behavior was developed using CAD tools, TinkerCAD, and Wokwi.
 
-### Guide
-Here is a a guide of the following files with explanations of what you will find in each one:
+---
 
-Overview of the entire project which includes instructions on use, assembly, materials, etc:
-- Instruction Manual.docx
+## My Role — Embedded Systems Programming (Arduino / C++)
 
-CAD Files of the box design:
-- Final box pieces .DXF
-- hand dxf.DXF
+I was responsible for designing and implementing the Arduino code that controls:
 
-A picture of the Arduino set up:
-- Final Arduino.PNG
+- The LED breathing animation mapped to the physical hand layout
+- Alternating inhale/exhale timing logic
+- Integration of vibration feedback synchronized with the LEDs
+- Mapping the physical LED wiring path into a programmable index array for accurate animation
+- Timing control for adjustable breathing rates
 
-Arduino Code:
-- BRM-LED-VIB.ino
-- **Librarys📚:** Adafruit NeoPixel
+This required understanding how NeoPixels are addressed by **data chain order** rather than physical placement, and building a custom index mapping (`handPath[]`) to correctly trace the anatomical shape of the hand in software.
 
+---
 
+## How It Works
 
+1. A 3-LED white countdown prepares the patient to begin
+2. LEDs move in groups of 5 along the hand:
+   - **Green + vibration** → Inhale
+   - **Blue** → Exhale
+3. The sequence repeats across the entire hand outline
+4. The device finishes with a full white illumination of the hand
 
-## Useful Resources
+This creates a guided breathing experience using both visual and haptic biofeedback.
 
-Live Demo: https://wokwi.com/projects/453890159644208129
+---
 
-Programming LED Lights: https://www.youtube.com/watch?v=zj3sa5HV2Bg
+## Project Files
 
-Adafruit NeoPixel Library: Adafruit NeoPixel (https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use?gad_source=1&gad_campaignid=21079267614&gbraid=0AAAAADx9JvQYocfMOvWViEjxOf6gqUYtp&gclid=Cj0KCQiAhOfLBhCCARIsAJPiopOa45H3wr3WZ1i3AQNaOB-y8WlB3rZ--mDY2H1_riNlSIovGlfUStkaAkCMEALw_wcB)
+| File | Description |
+|-----|-------------|
+| `BRM-LED-VIB.ino` | Arduino C++ code controlling LEDs and vibration |
+| `Instruction Manual.docx` | Full build, assembly, and usage guide |
+| `Final box pieces.DXF` | CAD files for laser-cut enclosure |
+| `hand dxf.DXF` | CAD file for acrylic hand layout |
+| `Final Arduino.PNG` | Wiring layout reference |
 
-## Future Improvments?
-- [ ] Switch in order to indlcude/exclude vibrations
-- [ ] Add dial for breathing rate adjustment
-- [ ] Add dial for color selection perfered by user
-- [ ] Develop Physical Copy (Originally Designed Online during Covid-19 Pandemic, Spring 2020)
+**Required Library:** Adafruit NeoPixel
+
+---
+
+## Live Simulation
+
+Wokwi Demo:  
+https://wokwi.com/projects/453890159644208129
+
+This simulation demonstrates the complete LED breathing sequence and vibration logic.
+
+---
+
+## Technical Resources Used
+
+- Adafruit NeoPixel Library📚
+  https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-use
+
+- Wokwi Arduino Simulator
+- TinkerCAD Circuits
+- AutoCAD / DXF for enclosure design
+
+---
+
+## Future Improvements
+
+- [ ] Physical prototype build
+- [ ] Adjustable dial for breathing rate
+- [ ] Adjustable color selection
+- [ ] Switch to enable/disable vibration feedback
